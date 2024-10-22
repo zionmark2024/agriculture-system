@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">AGRITECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#what-we-do" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        What we do
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Equipment Rental</a></li>
+                        <li><a class="dropdown-item" href="#">crop protection</a></li>
+                        <li><a class="dropdown-item" href="#">ogarnic fertilizers</a></li>
+                        <li><a class="dropdown-item" href="#">Expert advices</a></li>
+                        <li><a class="dropdown-item" href="#">Free screening services</a></li>
+                        <li><a class="dropdown-item" href="#">Homebased equipment shop</a></li>
+                        <li><a class="dropdown-item" href="#">Research abd Development</a></li>
+                        
+                        
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Who we are
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="#">How we Do It</a></li>
+                        <li><a class="dropdown-item" href="#">Work with us</a></li>
+                        <li><a class="dropdown-item" href="#">New & Media</a></li>
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        
+                      </ul>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#get-in-touch">Get in touch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <header class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>AGRITECH
+                            <br>
+                            <span class="text-green">
+                                <span class="typing"></span>
+                            </span>
+                        </h1>
+                        <p>At Agritech, we envision a world where everyone has access to high-quality, sustainable agricultural products that nurture both the land and our communities. We strive to connect farmers and consumers directly, fostering transparency and trust. Our mission is to make sustainable farming accessible to all, empowering you 
+                            to make choices that support your health and the planet
+                        </p>
+                        <div class="d-flex flex-column flex-lg-row">
+                            <a href="#home" class="btn btn-green btn-lg">Get service</a>
+                            <a href="#home" class="btn btn-green btn-lg mt-3 mt-lg-0 ms-lg-4">Purchase/hire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="bg-blue py-4 py-lg-5 text-white">
+            <div class="container">
+                <h2>Who we are</h2>
+                <p>
+                    We are an initiative that provides affordable, high-quality agricultural resources and support for small-scale farmers in middle- to low-income communities in Kenya. 
+                </p>
+                <p>Our services include:
+                    Access to Quality Seeds: We provide farmers with high-quality, resilient seeds that are suited to local conditions, helping them achieve better yields and diversify their crops.
+
+Sustainable Farming Techniques: Our team offers training and resources on sustainable agricultural practices, including organic farming, crop rotation, and soil health management, to promote environmental stewardship and long-term productivity.
+
+
+                </p>
+                <div class="hide-by-default show" id="homeLoadMore">
+                    <p>
+                        Small-scale farmers in Kenya often face challenges such as limited access to quality seeds, outdated farming techniques, and inadequate market opportunities, which hinder their ability to achieve sustainable yields and secure their livelihoods.
+                        we stand out as the best choice for supporting farmers in Kenya due to our deep understanding of local agricultural needs and our commitment to empowering communities. We combine expert knowledge with practical solutions, providing high-quality seeds, sustainable farming practices, and comprehensive training tailored specifically
+                         for the challenges faced by small-scale farmers.
+                    </p>
+                    <p>
+                        The nurses offer clinical servisec like venipuncture, incubbation, trachestomy care, lifting and turning, woundcare, catherization patient counselling assesments. etc. some of the conditions that  we mangae at home are dementia cancers stroke heart failure asthma, joint and ke pains, yes we are agrowing big thing...
+                    </p>
+                </div>
+                <span onclick="homeLoadMore()" class="btn btn-green">More about us</span>
+            </div>
+        </section>
+
+        <section class="login-section py-4 py-lg-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Login</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="login-card">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">Username</label>
+                                    <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                                </div>
+                                <button type="submit" class="btn btn-green w-100">Login</button>
+                            </form>
+                            <div class="text-center mt-3">
+                                <a href="#" class="text-muted">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-4 py-lg-5">
+            <div class="container">
+                <h2 class="text-center">What We do</h2>
+                <div class="row mt-4">
+                
+                    <div class="col-md-3 mb-2 mt-3">
+                        <div class="service-card">
+                            <h3>
+                                
+                                Equipment Rental
+                            </h3>
+                            <p class="lc-4">
+                                We provide affordable equipment rental services, making advanced farming tools accessible to all.
+                            </p>
+                            <a href="#Home" class="btn btn-blue">
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2 mt-3">
+                        <div class="service-card">
+                            <h3>
+                                
+                                Crop Protection
+                            </h3>
+                            <p class="lc-4">
+                                Our range of crop protection products safeguards your harvest against pests and diseases, ensuring a bountiful yield
+                            </p>
+                            <a href="#Home" class="btn btn-blue">
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2 mt-3">
+                        <div class="service-card">
+                            <h3>
+                                
+                                Organic Fertilizers
+                            </h3>
+                            <p class="lc-4">
+                                Our organic fertilizers promote healthy soil and sustainable farming practices for a greener planet
+                            </p>
+                            <a href="#Home" class="btn btn-blue">
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2 mt-3">
+                        <div class="service-card">
+                            <h3>
+                                
+                                Expert Advice
+                            </h3>
+                            <p class="lc-4">
+                                Our knowledgeable team offers expert advice to help you choose the right products for your agricultural needs.
+                            </p>
+                            <a href="#Home" class="btn btn-blue">
+                                Read More
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 py-lg-5 bg-light">
+            <div class="container text-center">
+                <h2>Our Team</h2>
+                <div class="row">
+                    <div class="col6 col-md-4 col-lg-3 my-2 my-lg-0">
+                        <div class="team-card">
+                            <div class="team-img-box">
+                                <img src="img/60f7be227c6d1c2c555f22eeb246597e.jpg" width="!00%" alt="">
+                                <span class="team-socials">
+                                    <a href="#home" target="_blank" rel="nooperner"></a>
+                                </span>
+                            </div>
+                            <h3 class="team-name">Naomi Monari</h3>
+                            <p class="title-title mb-0 text-muted">Chief Executive Officer & Founder</p>
+                        </div>
+                    </div>
+                    <div class="col6 col-md-4 col-lg-3 my-2 my-lg-0">
+                        <div class="team-card">
+                            <div class="team-img-box">
+                                <img src="img/60f7be227c6d1c2c555f22eeb246597e.jpg" width="!00%" alt="">
+                                <span class="team-socials">
+                                    <a href="#home" target="_blank" rel="nooperner"></a>
+                                </span>
+                            </div>
+                            <h3 class="team-name">Naomi Monari</h3>
+                            <p class="title-title mb-0 text-muted">Chief Executive Officer & Founder</p>
+                        </div>
+                    </div>
+                    <div class="col6 col-md-4 col-lg-3 my-2 my-lg-0">
+                        <div class="team-card">
+                            <div class="team-img-box">
+                                <img src="img/60f7be227c6d1c2c555f22eeb246597e.jpg" width="!00%" alt="">
+                                <span class="team-socials">
+                                    <a href="https://www.linkedin.com/in/homenurseingexperet" target="_blank" rel="nooperner"></a>
+                                </span>
+                            </div>
+                            <h3 class="team-name">Naomi Monari</h3>
+                            <p class="title-title mb-0 text-muted">Chief Executive Officer & Founder</p>
+                        </div>
+                    </div>
+                    <div class="col6 col-md-4 col-lg-3 my-2 my-lg-0">
+                        <div class="team-card">
+                            <div class="team-img-box">
+                                <img src="img/60f7be227c6d1c2c555f22eeb246597e.jpg" width="!00%" alt="">
+                                <span class="team-socials">
+                                    <a href="#home" target="_blank" rel="nooperner"></a>
+                                </span>
+                            </div>
+                            <h3 class="team-name">Naomi Monari</h3>
+                            <p class="title-title mb-0 text-muted">Chief Executive Officer & Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="#about-us" class="btn btn-outline-blue">
+                        View all team members
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-4 py-lg-5 bg-light">
+            <div class="container text-center">
+                <h2>Our Products</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <img src="img/seeds.jpeg" alt="Product 1" class="img-fluid">
+                            <h3>Seeds</h3>
+                            <p>.</p>
+                            <a href="#" class="btn btn-blue">View Details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <img src="img/machinery.jpeg" alt="Product 2" class="img-fluid">
+                            <h3>Machinery</h3>
+                            <p>Description of product 2.</p>
+                            <a href="#" class="btn btn-blue">View Details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <img src="img/fertilizer.jpeg" alt="Product 3" class="img-fluid">
+                            <h3>Fertilizers</h3>
+                            <p>Description of product 3.</p>
+                            <a href="#" class="btn btn-blue">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="py-4 py-lg-5 impact-and-traction">
+            <div class="container text-center">
+                <h2 class="text-white mb-4"> Our Traction</h2>
+                <div class="row">
+                    <div class="col-6 col-md-3 my-2 my-lg-1">
+                        <div class="traction-card">
+                            <h3>
+                                <span class="tractionField" traction="1200">+1200</span>
+                                <span class="d-none">1200</span>
+                                
+                            </h3>
+                            <p>Community training session</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 my-2 my-lg-1">
+                        <div class="traction-card">
+                            <h3>
+                                <span class="tractionField" traction="1500">+1500</span>
+                                <span class="d-none">1500</span>
+                                
+                            </h3>
+                            <p>Matkert Access Sucess</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 my-2 my-lg-1">
+                        <div class="traction-card">
+                            <h3>
+                                <span class="tractionField" traction="10000">+10000</span>
+                                <span class="d-none">10000</span>
+                                
+                            </h3>
+                            <p>Sustainabilty Practices</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 my-2 my-lg-1">
+                        <div class="traction-card">
+                            <h3>
+                                <span class="tractionField" traction="1100">+1100</span>
+                                <span class="d-none">1100</span>
+                                
+                            </h3>
+                            <p>Women in Agriculture</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href class="btn btn-green">Contact us</a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h3 class="text-white mb-4">Stay Connected</h3>
+                        <div class="social-icons mb-3">
+                            <a href="#" class="social-icon"><img src="img/facebook-icon.svg" alt="Facebook"></a>
+                            <a href="#" class="social-icon"><img src="img/twitter-icon.svg" alt="Twitter"></a>
+                            <a href="#" class="social-icon"><img src="img/instagram-icon.svg" alt="Instagram"></a>
+                            <a href="#" class="social-icon"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+                        </div>
+                        <p class="text-white">© 2024Agritech. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
